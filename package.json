@@ -19,5 +19,11 @@
   "bugs": {
     "url": "https://github.com/dimkasyan/video-converter/issues"
   },
-  "homepage": "https://github.com/dimkasyan/video-converter#readme"
+  "homepage": "https://github.com/dimkasyan/video-converter#readme",
+  "dependencies": {
+    "inquirer": "^8.2.2"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.1"
+  }
 }
