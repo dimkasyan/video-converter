@@ -1,4 +1,4 @@
-import { PromptSrevice } from "./core/prompt.service";
+import { PromptSrevice } from "./core/prompt/prompt.service";
 
 export class App {
    async run() {
