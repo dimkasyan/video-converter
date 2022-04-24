@@ -13,7 +13,7 @@ export class ConsoleLogger implements IStreamLogger {
         console.log(...args);
     }
     error(...args: any[]): void {
-        throw new Error(...args);
+        console.log(...args);
     }
     end(): void {
         console.log('End');
